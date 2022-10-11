@@ -2,7 +2,7 @@
 
 module AXI_SLAVE
 #(
-    parameter ADDR_WIDTH        = 16,
+    parameter ADDR_WIDTH        = 30,
     parameter DATA_WIDTH        = `AXI_DATA_WIDTH,
     parameter ID_WIDTH          = `AXI_ID_WIDTH,
     parameter AWREADY_DELAY     = 1,
